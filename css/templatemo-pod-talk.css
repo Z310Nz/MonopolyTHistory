@@ -817,6 +817,28 @@ main {
   padding: 10px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 1px;
+  height: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p-temp {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.b-temp {
+  color: black;
+}
+
 .team-thumb {
   border-radius: var(--border-radius-medium);
   position: relative;
