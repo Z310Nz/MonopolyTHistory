@@ -1,43 +1,42 @@
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #00CC99;
-  --secondary-color:              #0066CC;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #0066CC;
-  --custom-btn-bg-hover-color:    #00CC99;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #0066CC;
+  --white-color: #ffffff;
+  --primary-color: #00cc99;
+  --secondary-color: #0066cc;
+  --section-bg-color: #f0f8ff;
+  --custom-btn-bg-color: #0066cc;
+  --custom-btn-bg-hover-color: #00cc99;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #7fffd4;
+  --link-hover-color: #0066cc;
 
-  --body-font-family:             "Noto Sans Thai", sans-serif;
-  --title-font-family:            "Noto Sans Thai", sans-serif;
+  --body-font-family: "Noto Sans Thai", sans-serif;
+  --title-font-family: "Noto Sans Thai", sans-serif;
 
-  --h1-font-size:                 58px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  16px;
-  --menu-font-size:               14px;
+  --h1-font-size: 58px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 16px;
+  --menu-font-size: 14px;
 
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
 
-  --font-weight-light:            300;
-  --font-weight-normal:           400;
-  --font-weight-medium:           500;
-  --font-weight-semibold:         600;
-  --font-weight-bold:             700;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
 }
 
 body {
   background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
 }
-
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -57,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title-font-family); 
+  font-family: var(--title-font-family);
   font-weight: var(--font-weight-semibold);
 }
 
@@ -99,7 +98,7 @@ ul li {
   font-weight: var(--font-weight-light);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -124,7 +123,6 @@ strong {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
-
 
 /*---------------------------------------
   SECTION               
@@ -184,14 +182,12 @@ main {
   position: relative;
 }
 
-
 /*---------------------------------------
   CUSTOM ICON COLOR               
 -----------------------------------------*/
 .custom-icon {
   color: var(--primary-color);
 }
-
 
 /*---------------------------------------
   CUSTOM BUTTON               
@@ -231,12 +227,12 @@ main {
   color: var(--white-color);
 }
 
-
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: url('../images/templatemo-wave-header.jpg'), linear-gradient(#348CD2, #FFFFFF);;
+  background-image: url("../images/templatemo-wave-header.jpg"),
+    linear-gradient(#348cd2, #ffffff);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -247,7 +243,6 @@ main {
 .site-header h2 {
   color: var(--white-color);
 }
-
 
 /*---------------------------------------
   NAVIGATION              
@@ -291,7 +286,7 @@ main {
 .navbar-nav .nav-link {
   display: inline-block;
   color: var(--section-bg-color);
-  font-family: var(--title-font-family); 
+  font-family: var(--title-font-family);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
@@ -306,14 +301,14 @@ main {
   padding-left: 18px;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
 
 .navbar .dropdown-menu {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border: 0;
   display: inherit;
   opacity: 0;
@@ -339,7 +334,7 @@ main {
 .navbar .dropdown-item {
   display: inline-block;
   color: var(--p-bg-color);
-  font-family: var(--title-font-family); 
+  font-family: var(--title-font-family);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
@@ -347,9 +342,9 @@ main {
   position: relative;
 }
 
-.navbar .dropdown-item.active, 
+.navbar .dropdown-item.active,
 .navbar .dropdown-item:active,
-.navbar .dropdown-item:focus, 
+.navbar .dropdown-item:focus,
 .navbar .dropdown-item:hover {
   background: transparent;
   color: var(--secondary-color);
@@ -365,7 +360,7 @@ main {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -414,7 +409,8 @@ main {
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
   transition: top 300ms 50ms ease, transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
+  transition: top 300ms 50ms ease, transform 300ms 350ms ease,
+    -webkit-transform 300ms 350ms ease;
   top: 0;
 }
 
@@ -439,14 +435,15 @@ main {
 .navbar-toggler .navbar-toggler-icon:after {
   transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
   transition: top 300ms 350ms ease, transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
+  transition: top 300ms 350ms ease, transform 300ms 50ms ease,
+    -webkit-transform 300ms 50ms ease;
   position: absolute;
   right: 0;
   left: 0;
   background: var(--white-color);
   width: 30px;
   height: 2px;
-  content: '';
+  content: "";
 }
 
 .navbar-toggler .navbar-toggler-icon::before {
@@ -457,12 +454,12 @@ main {
   top: 8px;
 }
 
-
 /*---------------------------------------
   CAROUSEL        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/templatemo-wave-banner.jpg'), linear-gradient(#348CD2, #FFFFFF);
+  background-image: url("../images/templatemo-wave-banner.jpg"),
+    linear-gradient(#348cd2, #ffffff);
   background-repeat: no-repeat;
   background-size: 108% 76%;
   background-position: top;
@@ -508,7 +505,7 @@ main {
 
 .owl-carousel-info {
   background-color: var(--section-bg-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -540,7 +537,10 @@ main {
   padding-left: 20px;
 }
 
-.owl-carousel .owl-item.active.center .owl-carousel-info-wrap:hover .social-icon,
+.owl-carousel
+  .owl-item.active.center
+  .owl-carousel-info-wrap:hover
+  .social-icon,
 .team-thumb:hover .social-icon {
   transform: translateY(-100%);
   opacity: 1;
@@ -562,7 +562,7 @@ main {
 
 .owl-carousel .owl-dots {
   background-color: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border-radius: var(--border-radius-large);
   display: inline-block;
   margin: auto;
@@ -571,15 +571,14 @@ main {
   padding-bottom: 7px;
 }
 
-.owl-theme .owl-nav.disabled+.owl-dots {
+.owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 40px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: var(--secondary-color);
 }
-
 
 /*---------------------------------------
   CUSTOM BLOCK              
@@ -595,7 +594,7 @@ main {
 
 .custom-block:hover {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border-color: transparent;
   transform: translateY(-3px);
 }
@@ -774,7 +773,6 @@ main {
   padding: 15px 20px 20px 20px;
 }
 
-
 /*---------------------------------------
   PROIFLE BLOCK               
 -----------------------------------------*/
@@ -805,13 +803,18 @@ main {
   margin-bottom: 0;
 }
 
-
 /*---------------------------------------
   ABOUT & TEAM SECTION               
 -----------------------------------------*/
 .about-image {
   border-radius: var(--border-radius-medium);
   display: block;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 .team-thumb {
@@ -828,7 +831,6 @@ main {
   left: 0;
   padding: 30px;
 }
-
 
 /*---------------------------------------
   PAGINATION               
@@ -859,11 +861,11 @@ main {
   margin-right: 10px;
 }
 
-.active>.page-link, .page-link.active {
+.active > .page-link,
+.page-link.active {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
-
 
 /*---------------------------------------
   CONTACT               
@@ -887,11 +889,10 @@ main {
   border-radius: var(--border-radius-medium);
 }
 
-.contact-form .form-floating>textarea {
+.contact-form .form-floating > textarea {
   border-radius: var(--border-radius-medium);
   height: 150px;
 }
-
 
 /*---------------------------------------
   SUBSCRIBE FORM               
@@ -926,7 +927,6 @@ main {
   border-radius: 0 0 10px 10px;
 }
 
-
 /*---------------------------------------
   CUSTOM FORM               
 -----------------------------------------*/
@@ -942,7 +942,7 @@ main {
   outline: none;
 }
 
-.form-floating>label {
+.form-floating > label {
   padding-left: 20px;
 }
 
@@ -964,7 +964,6 @@ main {
   border-color: transparent;
 }
 
-
 /*---------------------------------------
   SEARCH FORM               
 -----------------------------------------*/
@@ -985,12 +984,12 @@ main {
   background: var(--primary-color);
 }
 
-
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('../images/templatemo-wave-footer.jpg'), linear-gradient(#FFFFFF, #348CD2);
+  background-image: url("../images/templatemo-wave-footer.jpg"),
+    linear-gradient(#ffffff, #348cd2);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1049,7 +1048,6 @@ main {
   line-height: inherit;
 }
 
-
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
@@ -1083,17 +1081,15 @@ main {
   color: var(--white-color);
 }
 
-
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
 @media screen and (min-width: 2160px) {
-	.hero-section {
-	  background-size: 100% 90%;
-	  /* T o o p l a t e . c o m   C u s t o m i z e d */
-	}
+  .hero-section {
+    background-size: 100% 90%;
+    /* T o o p l a t e . c o m   C u s t o m i z e d */
+  }
 }
-
 
 @media screen and (min-width: 1600px) {
   .site-footer {
@@ -1102,10 +1098,10 @@ main {
 }
 
 @media screen and (max-width: 1240px) {
-	.hero-section {
-	  background-size: 116%;
-	  /* T o o p l a t e . c o m   C u s t o m i z e d */
-	}
+  .hero-section {
+    background-size: 116%;
+    /* T o o p l a t e . c o m   C u s t o m i z e d */
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1132,11 +1128,11 @@ main {
   h6 {
     font-size: 18px;
   }
-  
+
   .hero-section {
-	  background-size: 160% 66%; 
-	  /* T o o p l a t e . c o m   C u s t o m i z e d */
-	}
+    background-size: 160% 66%;
+    /* T o o p l a t e . c o m   C u s t o m i z e d */
+  }
 
   .section-padding {
     padding-top: 50px;
@@ -1188,10 +1184,10 @@ main {
 }
 
 @media screen and (max-width: 540px) {
-	.hero-section {
-  		background-size: 180% 65%;
-		/* T o o p l a t e . c o m   C u s t o m i z e d */
-	}
+  .hero-section {
+    background-size: 180% 65%;
+    /* T o o p l a t e . c o m   C u s t o m i z e d */
+  }
 
   .custom-block .custom-block-top {
     flex-direction: column;
@@ -1229,6 +1225,4 @@ main {
   .search-form {
     max-width: 200px;
   }
-
 }
-
