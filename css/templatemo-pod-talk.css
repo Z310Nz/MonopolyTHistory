@@ -1268,3 +1268,24 @@ main {
 #myBtn:hover {
   background-color: #555;
 }
+
+#info-block section {
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.file-marker > div {
+  padding: 0 3px;
+  height: auto;
+  margin-top: -0.8em;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.box-title {
+  font-size: 17px;
+  background: white none repeat scroll 0 0;
+  display: inline-block;
+  padding: 0 2px;
+  position: relative;
+  margin-left: 2em;
+}
